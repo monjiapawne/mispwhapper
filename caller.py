@@ -11,12 +11,6 @@ api = MISPClient(
 )
 
 #WIP
-method = "post"
-endpoint = "admin/users/add"
-data = {
-    "email": "simple2@man",
-    "org_id":"1",
-    "server_id":"0",
-    "password":"test",
-}
-response = api.call(method, endpoint, data)
+method = "get"
+endpoint = "admin/users"
+response = api.call(method, endpoint)
