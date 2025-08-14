@@ -1,3 +1,6 @@
+"""
+Get list of all orginzations
+"""
 from mispwhapper import MISPClient
 
 api = MISPClient(
