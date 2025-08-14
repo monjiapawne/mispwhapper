@@ -11,4 +11,5 @@ verify_ssl: bool = False,     # false - accept self signed certifcates
 raw: bool        = False,     # false - don't return the raw api response
 pretty: bool     = True,      # true - return the formatted json response
 log_level: str   = "INFO"     # set the logging level, headers are included
+data: dict                    # provide a json dictionary for the api call  [dependant on api call]
 ```
